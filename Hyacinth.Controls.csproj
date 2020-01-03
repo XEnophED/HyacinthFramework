@@ -43,9 +43,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Components\HyacinthStyleManager.cs" />
+    <Compile Include="Drawing\HyacinthBorderStyle.cs" />
     <Compile Include="Drawing\HyacinthColors.cs" />
     <Compile Include="Drawing\HyacinthColorStyle.cs" />
     <Compile Include="Drawing\HyacinthPalette.cs" />
+    <Compile Include="Forms\HyacinthForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HyacinthBrushes.cs" />
+    <Compile Include="HyacinthThemeStyle.cs" />
     <Compile Include="Interfaces\IHyacinthControl.cs" />
     <Compile Include="Interfaces\IHyacinthStyledComponent.cs" />
     <Compile Include="Usables\HyacinthButtonBase.cs" />
@@ -57,7 +63,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Enums\" />
-    <Folder Include="Forms\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
